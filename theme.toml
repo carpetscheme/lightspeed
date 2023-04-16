@@ -3,7 +3,7 @@ description = "Zola theme with a perfect Lighthouse score"
 license = "MIT"
 homepage = "https://github.com/carpetscheme/lightspeed"
 min_version = "0.10.0"
-demo = "https://quirky-perlman-34d0da.netlify.com/"
+demo = "https://quirky-perlman-34d0da.netlify.app/"
 
 [author]
 name = "El Carpet"
