@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Light Speed</title>
+    <subtitle>Zola theme with a perfect Lighthouse score</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://carpetscheme.github.io/lightspeed/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://carpetscheme.github.io/lightspeed"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-03-29T00:00:00+00:00</updated>
+    <id>https://carpetscheme.github.io/lightspeed/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Example of elements</title>
+        <published>2019-03-29T00:00:00+00:00</published>
+        <updated>2019-03-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              carpetscheme
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://carpetscheme.github.io/lightspeed/example-of-all-elements/"/>
+        <id>https://carpetscheme.github.io/lightspeed/example-of-all-elements/</id>
+        
+        <content type="html" xml:base="https://carpetscheme.github.io/lightspeed/example-of-all-elements/">&lt;h1 id=&quot;h1-heading&quot;&gt;h1 Heading&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2-heading&quot;&gt;h2 Heading&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3-heading&quot;&gt;h3 Heading&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4-heading&quot;&gt;h4 Heading&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5-heading&quot;&gt;h5 Heading&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6-heading&quot;&gt;h6 Heading&lt;&#x2F;h6&gt;
+&lt;h2 id=&quot;horizontal-rules&quot;&gt;Horizontal Rules&lt;&#x2F;h2&gt;
+&lt;hr &#x2F;&gt;
+&lt;hr &#x2F;&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;emphasis&quot;&gt;Emphasis&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;del&gt;Strikethrough&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquotes can also be nested...&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...by using additional greater-than signs right next to each other...&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...or with spaces between arrows.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;&#x2F;h2&gt;
+&lt;p&gt;Unordered&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a list by starting a line with &lt;code&gt;+&lt;&#x2F;code&gt;, &lt;code&gt;-&lt;&#x2F;code&gt;, or &lt;code&gt;*&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Sub-lists are made by indenting 2 spaces:
+&lt;ul&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet
+&lt;ul&gt;
+&lt;li&gt;Nulla volutpat aliquam velit&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Very easy!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Ordered&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Consectetur adipiscing elit&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Integer molestie lorem at massa&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;You can use sequential numbers...&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;...or keep all the numbers as &lt;code&gt;1.&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Start numbering with offset:&lt;&#x2F;p&gt;
+&lt;ol start=&quot;57&quot;&gt;
+&lt;li&gt;foo&lt;&#x2F;li&gt;
+&lt;li&gt;bar&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;&#x2F;h2&gt;
+&lt;p&gt;Inline &lt;code&gt;code&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Indented code&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;color:#282828aa;&quot;&gt;&lt;code&gt;&lt;span&gt;&#x2F;&#x2F; Some comments
+&lt;&#x2F;span&gt;&lt;span&gt;line 1 of code
+&lt;&#x2F;span&gt;&lt;span&gt;line 2 of code
+&lt;&#x2F;span&gt;&lt;span&gt;line 3 of code
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Block code &quot;fences&quot;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#fcf0ca;color:#282828aa;&quot;&gt;&lt;code&gt;&lt;span&gt;Sample text here...
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Syntax highlighting&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;js&quot; style=&quot;background-color:#fcf0ca;color:#282828aa;&quot; class=&quot;language-js &quot;&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#407959;&quot;&gt;foo &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;function &lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;bar&lt;&#x2F;span&gt;&lt;span&gt;) {
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;bar&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;++&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;};
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#407959;&quot;&gt;console&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b57614;&quot;&gt;log&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#407959;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;));
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Option&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;data&lt;&#x2F;td&gt;&lt;td&gt;path to data files to supply the data that will be passed into templates.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;engine&lt;&#x2F;td&gt;&lt;td&gt;engine to be used for processing templates. Handlebars is the default.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ext&lt;&#x2F;td&gt;&lt;td&gt;extension to be used for dest files.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Right aligned columns&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: right&quot;&gt;Option&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: right&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;data&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;path to data files to supply the data that will be passed into templates.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;engine&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;engine to be used for processing templates. Handlebars is the default.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: right&quot;&gt;ext&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: right&quot;&gt;extension to be used for dest files.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;github.com&quot;&gt;link text&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;github.com&quot; title=&quot;title text!&quot;&gt;link with title&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;DP360507.jpg&quot; alt=&quot;Mille-fleurs tapestry with three medallions&quot; title=&quot;Mille-fleurs tapestry with three medallions&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Like links, images can also have a footnote style syntax:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;images.metmuseum.org&#x2F;CRDImages&#x2F;cl&#x2F;original&#x2F;DP101128.jpg&quot; alt=&quot;The Unicorn is Attacked (from the Unicorn Tapestries&quot; title=&quot;The Unicorn is Attacked&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;With a reference later in the document defining the URL location.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;footnotes&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;markdown-it&#x2F;markdown-it-footnote&quot;&gt;Footnotes&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Footnote 1 link&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#first&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Footnote 2 link&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#second&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Duplicated footnote reference&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#second&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;first&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Footnote &lt;strong&gt;can have markup&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;and multiple paragraphs.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;second&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;Footnote text.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Code Snippets</title>
+        <published>2019-03-25T00:00:00+00:00</published>
+        <updated>2019-03-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              carpetscheme
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://carpetscheme.github.io/lightspeed/code-snippets/"/>
+        <id>https://carpetscheme.github.io/lightspeed/code-snippets/</id>
+        
+        <content type="html" xml:base="https://carpetscheme.github.io/lightspeed/code-snippets/">&lt;p&gt;Code blocks.. with automatic syntax highlighting!&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;scala&quot; style=&quot;background-color:#fcf0ca;color:#282828aa;&quot; class=&quot;language-scala &quot;&gt;&lt;code class=&quot;language-scala&quot; data-lang=&quot;scala&quot;&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#407959;&quot;&gt;add&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;x&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;Int&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#282828;&quot;&gt;y&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;Int&lt;&#x2F;span&gt;&lt;span&gt;): &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9d0006;&quot;&gt;Int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b23c15;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span&gt; x + y
+&lt;&#x2F;span&gt;&lt;span&gt;println(add(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8f3f71;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;)) &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#928374;&quot;&gt;&#x2F;&#x2F; 3
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;See &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;content&#x2F;syntax-highlighting&#x2F;&quot;&gt;the docs&lt;&#x2F;a&gt; for options.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hello World!</title>
+        <published>2019-02-18T00:00:00+00:00</published>
+        <updated>2019-02-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              carpetscheme
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://carpetscheme.github.io/lightspeed/hello-world/"/>
+        <id>https://carpetscheme.github.io/lightspeed/hello-world/</id>
+        
+        <content type="html" xml:base="https://carpetscheme.github.io/lightspeed/hello-world/">&lt;p&gt;Hello World!&lt;&#x2F;p&gt;
+&lt;p&gt;This is just a sample post.&lt;&#x2F;p&gt;
+&lt;p&gt;Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit. Praesent blandit, mi id facilisis adipiscing, tortor tellus mollis quam, sed dignissim sapien diam ac lectus. Nunc eget ornare quam. Vivamus sit amet tortor dolor, non egestas ligula. Mauris nisi risus, semper nec blandit id, suscipit eget dolor. Sed placerat odio at erat porttitor varius. Phasellus ornare vestibulum dolor ac rhoncus. Mauris laoreet varius est eu rhoncus. Curabitur facilisis mauris eu purus pharetra vitae tincidunt nulla gravida. Duis sagittis, felis a luctus mattis, metus sem tempus velit, sit amet blandit tellus nisi id augue.&lt;&#x2F;p&gt;
+&lt;p&gt;Proin feugiat libero ac lorem mollis fermentum. Cras et lacus sodales nisl facilisis ornare. Sed dolor eros, pulvinar ac varius non, bibendum eget odio. Nulla facilisi. Pellentesque et nisi a tellus ullamcorper faucibus. Nullam sagittis tempor mi non mattis. Proin ultricies, enim sit amet bibendum tristique, ligula ante feugiat nunc, sit amet imperdiet tortor nisl et felis. Pellentesque et nisl dui, non dictum libero. Vivamus tempor ante ac leo suscipit a sodales ligula iaculis. Curabitur massa mi, semper sed bibendum eget, auctor in nulla. Quisque at mi in ligula viverra suscipit sed vitae leo.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://carpetscheme.github.io/lightspeed/</loc>
+    </url>
+    <url>
+        <loc>https://carpetscheme.github.io/lightspeed/about/</loc>
+    </url>
+    <url>
+        <loc>https://carpetscheme.github.io/lightspeed/code-snippets/</loc>
+        <lastmod>2019-03-25</lastmod>
+    </url>
+    <url>
+        <loc>https://carpetscheme.github.io/lightspeed/example-of-all-elements/</loc>
+        <lastmod>2019-03-29</lastmod>
+    </url>
+    <url>
+        <loc>https://carpetscheme.github.io/lightspeed/hello-world/</loc>
+        <lastmod>2019-02-18</lastmod>
+    </url>
+</urlset>
