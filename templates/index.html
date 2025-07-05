@@ -77,11 +77,12 @@
         </nav>
         {% endif %}
         {% block taglines %}
-        <small>
           {%- if config.extra.footer_credits or config.extra.footer_credits is undefined -%}
-          Built with <a href="https://www.getzola.org">Zola</a> and <a href="https://github.com/carpetscheme/lightspeed">Lightspeed</a>
+            <small>
+              {% set credits = "Built with [Zola](https://www.getzola.org) and [Lightspeed](https://github.com/carpetscheme/lightspeed)" %}
+              {{ credits | markdown(inline=true) | safe }}
+            </small>
           {%- endif -%}
-        </small>
         {% endblock taglines %}
       </footer>
       {% endblock footer %}
